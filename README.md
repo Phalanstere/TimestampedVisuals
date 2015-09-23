@@ -1,6 +1,12 @@
 # TimestampedVisuals
 creates a cluster of visual data, arranged by a given timeframe (day, month etc). The objects also contain exif information.
 
+to install from npm, you write:
+
+```html
+ 	npm install timestamped-visuals 
+```
+
 You embed the library with a command like this:
 
 
@@ -23,6 +29,8 @@ To import the visual data and create an array of time clustered objects, you wri
 - the **filename** specifies the output where the timestamped objects are written into. It should be \*.json format
 - with the optional **callback** you can specify a callback function that receives the results, as a list of js objects.
 - with the **timeframe** parameter you define an ordering structure. For example 'day' will groop the files on a daily basis. Valid parameters are "minute", "hour", "day", "week", "month", "year"
+
+In the examples folder you will find a sample that demonstrates a running example.
 
 TimestampedVisuals works fine in conjunction with <a href = "https://github.com/Phalanstere/ClusterPainter">**ClusterPainter**</a>
 
