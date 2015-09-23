@@ -1,14 +1,14 @@
 # TimestampedVisuals
-creates a cluster of visual data, arranged by a given timeframe (day, month etc). The objects also contain exif information
+creates a cluster of visual data, arranged by a given timeframe (day, month etc). The objects also contain exif information.
 
-you embed the file like this:
+You embed the library with a command like this:
 
 
 ```html
  	TV = require('timestamped-visuals); 
 ```
 
-To import the visual data and create an array of time clustered array, you write: 
+To import the visual data and create an array of time clustered objects, you write: 
 
 ```html
 	var x = new TV({
