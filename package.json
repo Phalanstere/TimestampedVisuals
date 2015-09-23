@@ -1,0 +1,32 @@
+{
+  "name": "timestamped-visuals",
+  "version": "0.0.1",
+  "description": "creates timestamped clusters out of a given directory (including sub-directories)",
+  "main": "./lib",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phalanstere/TimestampedVisuals.git"
+  },
+  "keywords": [
+    "exif",
+    "time",
+    "cluster",
+    "image",
+    "data"
+  ],
+  "author": "phalanstere <burckhardt@ludicmedia.de> (https://github.com/Phalanstere)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Phalanstere/TimestampedVisuals/issues"
+  },
+    "dependencies": {
+  "time-cluster": "0.0.1",
+  "visual-data": "0.0.4"
+  },
+  "homepage": "https://github.com/Phalanstere/TimestampedVisuals#readme"
+}
