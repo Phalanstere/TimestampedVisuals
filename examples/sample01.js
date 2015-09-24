@@ -11,10 +11,8 @@ console.log("CALLBACK " + result.length);
 
 var x = new TV({
                 path: "./../images",             // here you have to pass 
-                filename: "image.json", 
+                filename: "nova.json", 
                 callback: done,
                 timeframe: "day"
                 });
-
-
 
