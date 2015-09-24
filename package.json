@@ -1,6 +1,6 @@
 {
   "name": "timestamped-visuals",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "creates timestamped clusters out of a given directory (including sub-directories)",
   "main": "./lib",
   "dependencies": {},
